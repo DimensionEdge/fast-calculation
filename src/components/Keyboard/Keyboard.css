@@ -1,0 +1,23 @@
+.keyboard {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.keyboard-row {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+       
+}
+
+.keyboard-col{
+    flex: auto;
+    padding: 0.3em;
+}
+
+.keyboard-btn {
+    font-size: medium;
+}
